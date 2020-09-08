@@ -131,7 +131,7 @@ if bool(ENV):
     AUTO_BIO = os.environ.get("AUTO_BIO", None)
 
     # Time & Date - Country and Time Zone
-    COUNTRY = str(os.environ.get("COUNTRY", "India"))
+    COUNTRY = str(os.environ.get("COUNTRY", "Ethiopia"))
 
     TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
     FBAN_REASON = os.environ.get("FBAN_REASON", None)
