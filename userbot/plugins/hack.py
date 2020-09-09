@@ -2,10 +2,10 @@
 
 import asyncio
 
-from ethiouserbot import ethiouserbot
+from userge import userge
 
 
-@ethiouserbot.on_cmd("hack$", about={'header': "kensar hacking animation"})
+@userge.on_cmd("hack$", about={'header': "kensar hacking animation"})
 async def hack_func(message):
     user = await message.client.get_user_dict(message.from_user.id)
     heckerman = user['mention']
