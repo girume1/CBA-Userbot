@@ -1,4 +1,3 @@
-Ꮆ丨尺ㄩ爪:
 # by Girum
 
 import asyncio
