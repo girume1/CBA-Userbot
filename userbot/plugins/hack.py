@@ -43,15 +43,11 @@ async def _(event):
             "`Hacking... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Hacking... 84%\n█████████████████████▒▒▒▒ `",
             "`Hacking... 100%\n█████████HACKED███████████ `",
-]
-    hecked = (f"Targeted Account Hacked\n\n
-ይህንን ጠለፋ ለማስወገድ
-ለ {heckerman}
- "
-              "69$ ወይም 2,484ይ ብር 🇪🇹 ክፈሉ😎
-")
-    max_ani = len(animation_chars)
-    for i in range(max_ani):
-        await asyncio.sleep(2)
-        await message.edit(animation_chars[i % max_ani])
-    await message.edit(hecked)
+            "`Targeted Account Hacked\n\n ይህንን ጠለፋ ለማስወገድ ለ {DEFAULTUSER}\n 69$ ወይም 2,484ብር 🇪🇹 ይክፈሉ😎`"
+        ]
+
+        for i in animation_ttl:
+
+            await asyncio.sleep(animation_interval)
+
+            await event.edit(animation_chars[i % 11])
