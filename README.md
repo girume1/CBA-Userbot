@@ -11,9 +11,6 @@
 **Best User Bot To Manage Your Telegram Account🔥**
 ## Most PowerFul And Better And Secure
 
-## This Repo Owned By🔥
-* [@M1nH11](https://telegram.dog/M1nH11)
-
 ## We Are Not Responsible For Any Banning Of Your Telegram Account So Deploy On Your Own Risk😒
 
 ## Official Support💖
