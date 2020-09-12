@@ -1,4 +1,4 @@
-# Ethio USERBOT 🇪🇹
+# Ethio-USERBOT 🇪🇹
 
 <p align="center">
 <img src="hhttps://telegra.ph/file/cbc375cdf9ab13c790cf8.jpg" alt="Ethio Userbot">
@@ -19,7 +19,7 @@
 ## Official Support💖
 <a href="https://t.me/EthioUserBot"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 
-### Host Ethio <Userbot> 🇪🇹 In Heroku (On Your Own Risk)
+### Host Ethio-Userbot 🇪🇹 In Heroku (On Your Own Risk)
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/girum1/Ethio-Userbot)
 
