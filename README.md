@@ -1,7 +1,7 @@
-# CBA-USERBOT
+# Ethio USERBOT 🇪🇹
 
 <p align="center">
-<img src="https://telegra.ph/file/fc3aef09eb9b82d244f97.jpg" alt="CBA Userbot">
+<img src="hhttps://telegra.ph/file/cbc375cdf9ab13c790cf8.jpg" alt="Ethio Userbot">
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
@@ -12,18 +12,16 @@
 ## Most PowerFul And Better And Secure
 
 ## This Repo Owned By🔥
-* [@CYBERBOYAYUSH](https://telegram.dog/CyberBoyAyush)
-* [@XHACKERZKALI](https://telegram.dog/XHACKERZKALI)
+* [@M1nH11](https://telegram.dog/M1nH11)
 
 ## We Are Not Responsible For Any Banning Of Your Telegram Account So Deploy On Your Own Risk😒
 
 ## Official Support💖
-<a href="https://t.me/CBA_USERBOT"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/CBA_USERBOT_SUPPORT"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/EthioUserBot"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 
-### Host CBA - Userbot In Heroku (On Your Own Risk)
+### Host Ethio <Userbot> 🇪🇹 In Heroku (On Your Own Risk)
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CyberBoyAyush/CBA-Userbot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/girum1/Ethio-Userbot)
 
 ## Online Telegram-String Generator
 
@@ -34,7 +32,7 @@
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/CyberBoyAyush/CBA-Userbot
+git clone https://github.com/girum1/Ethio-Userbot
 cd FridayUserbot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
