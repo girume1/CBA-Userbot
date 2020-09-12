@@ -21,7 +21,7 @@
 
 ### Host Ethio-Userbot 🇪🇹 In Heroku (On Your Own Risk)
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/girum1/Ethio-Userbot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CyberBoyAyush/CBA-Userbot)
 
 ## Online Telegram-String Generator
 
@@ -32,7 +32,7 @@
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/girum1/Ethio-Userbot
+git clone https://github.com/CyberBoyAyush/CBA-Userbot
 cd FridayUserbot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
