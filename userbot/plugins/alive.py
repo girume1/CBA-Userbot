@@ -1,5 +1,4 @@
 """Check if userbot alive. If you change these, you become the gayest gay such that even the gay world will disown you."""
-Ꮆ丨尺ㄩ爪:
 from pyrogram.errors import ChatSendMediaForbidden
 from pyrogram.errors.exceptions import FileIdInvalid, FileReferenceEmpty
 from pyrogram.errors.exceptions.bad_request_400 import BadRequest, ChannelInvalid, MediaEmpty
