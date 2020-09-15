@@ -1,10 +1,14 @@
 """Check if userbot alive. If you change these, you become the gayest gay such that even the gay world will disown you."""
-#IMG CREDITS: @WhySooSerious
-import asyncio
-from telethon import events
-from uniborg.util import admin_cmd
-from userbot import ALIVE_NAME
-from telethon.tl.types import ChannelParticipantsAdmins
+Ꮆ丨尺ㄩ爪:
+from pyrogram.errors import ChatSendMediaForbidden
+from pyrogram.errors.exceptions import FileIdInvalid, FileReferenceEmpty
+from pyrogram.errors.exceptions.bad_request_400 import BadRequest, ChannelInvalid, MediaEmpty
+
+from userge.core.ext import RawClient
+from userge import userge, Message, Config, versions, get_version
+
+LOGO_ID, LOGO_REF = None, None
+
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 pm_caption = "`Ethio <Userbot> 🇪🇹 IS:` **ONLINE**\n\n"
 pm_caption += "**SYSTEM STATUS**\n"
