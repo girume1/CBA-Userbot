@@ -1,29 +1,28 @@
-"""Check if userbot alive. If you change these, you become the gayest gay such that even the gay world will disown you."""
 from pyrogram.errors import ChatSendMediaForbidden
 from pyrogram.errors.exceptions import FileIdInvalid, FileReferenceEmpty
 from pyrogram.errors.exceptions.bad_request_400 import BadRequest, ChannelInvalid, MediaEmpty
 
-from userge.core.ext import RawClient
-from userge import userge, Message, Config, versions, get_version
+from userbot.core.ext import RawClient
+from userbot import userbot, Message, Config, versions, get_version
 
 LOGO_ID, LOGO_REF = None, None
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
-pm_caption = "`Ethio <Userbot> 🇪🇹 IS:` **ONLINE**\n\n"
+
+@userge.on_cmd("alive", about={
+    'header': "This command is just for fun"}, allow_channels=False)
+async def alive(message: Message):
+    await message.delete()
+    output = f"""
+pm_caption = "Ethio <Userbot> 🇪🇹 IS: ONLINE\n\n"
 pm_caption += "**SYSTEM STATUS**\n"
-pm_caption += "`TELETHON VERSION:` **6.0.9**\n`Python:` **3.7.4**\n"
-pm_caption += "`DATABASE STATUS:` **Functional**\n"
-pm_caption += "**Current Branch** : `master`\n"
-pm_caption += "**Ethio <Userbot> 🇪🇹 OS** : `3.14`\n"
+pm_caption += "TELETHON VERSION: 6.0.9\nPython: 3.7.4\n"
+pm_caption += "DATABASE STATUS: Functional\n"
+pm_caption += "**Current Branch** : master\n"
+pm_caption += "**Ethio <Userbot> 🇪🇹 OS** : 3.14\n"
 pm_caption += f"**My Boss 💪** : {DEFAULTUSER} \n"
 pm_caption += "**Made By 😎** : @M1nH11 & @xaleb\n\n"
 pm_caption += "Deploy Your Own : [Repo](https://github.com/girume1/CBA-Userbot)\n"
-
-@borg.on(admin_cmd(pattern=r"alive"))
-async def friday(alive):
-    chat = await alive.get_chat()
-    """ For .alive command, check if the bot is running.  """
-try:
+    try:
         await _send_alive(message, output)
     except (FileIdInvalid, FileReferenceEmpty, BadRequest):
         await _refresh_id()
